@@ -1,0 +1,18 @@
+{
+	"WebApiHook - JS": {
+		"prefix": "az-func-node",
+		"body": [
+			"module.exports = function (context, request) {",
+			"  context.log('Webhook was triggered');",
+			"",
+			"  let response = {",
+			"    status: 200,",
+			"    body: { }",
+			"  };",
+			"",
+			"  context.done(null, response);",
+			"}"
+		],
+		"description": "Node.js function that executes when a webhook request is received"
+	}
+}

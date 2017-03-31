@@ -1,0 +1,66 @@
+{
+  "name": "azure-functions-tools",
+  "displayName": "Azure Functions Tools",
+  "version": "0.0.1",
+  "description": "Azure Functions JSON Intellisense and snippets for VS Code",
+  "publisher": "johnpapa",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "icon": "images/azure-functions-logo-128.png",
+  "galleryBanner": {
+    "color": "#0273D4",
+    "theme": "dark"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "jsonValidation": [
+      {
+        "fileMatch": "/function.json",
+        "url": "http://json.schemastore.org/function"
+      },
+      {
+        "fileMatch": "/host.json",
+        "url": "http://json.schemastore.org/host"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  },
+  "keywords" : [
+    "Azure",
+    "Azure Functions",
+    "JavaScript",
+    "Node",
+    "Node.js"
+    ],
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "vscode": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpapa/vscode-azure-functions-tools.git"
+  },
+  "author": "John Papa <john@johnpapa.net> (http://johnpapa.net/)",
+  "contributors": [
+    {
+      "name": "Shayne Boyer",
+      "email": "spboyer@live.com",
+      "url": "https://tattoocoder.com/"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/johnpapa/vscode-azure-functions-tools/issues"
+  },
+  "homepage": "https://github.com/johnpapa/vscode-azure-functions-tools#readme"
+}
