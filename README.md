@@ -4,23 +4,14 @@
 ## Features
 This extension for Visual Studio Code includes:
 
-1. Snippets for Azure Functions; for JavaScript
-2. JSON Intellisense for `host.json` and `function.json`
+- JSON Intellisense for `host.json` and `function.json`
 
-## Usage
-Type part of a snippet, press `enter`, and the snippet unfolds.
-
-### JavaScript Snippets
-```javascript
-az-func-node       // Azure Function WebAPI Hooks in Node.js
-```
-
-![Use Extension](images/use-snippets.gif)
-
-Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to activate snippets from within the editor.
+> We'll add other features in future versions
 
 ### JSON Schema Intellisense
 ![JSON Schema](images/json-schema-function.gif)
+
+Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to activate intellisense from within the editor.
 
 ## Installation
 

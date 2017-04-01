@@ -26,12 +26,6 @@
         "fileMatch": "/host.json",
         "url": "http://json.schemastore.org/host"
       }
-    ],
-    "snippets": [
-      {
-        "language": "javascript",
-        "path": "./snippets/javascript.json"
-      }
     ]
   },
   "keywords" : [
