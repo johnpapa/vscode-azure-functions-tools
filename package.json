@@ -5,7 +5,7 @@
   "description": "Azure Functions JSON Intellisense for VS Code",
   "publisher": "johnpapa",
   "engines": {
-    "vscode": "^1.11.0"
+    "vscode": "^1.10.0"
   },
   "icon": "images/azure-functions-logo-128.jpg",
   "galleryBanner": {
