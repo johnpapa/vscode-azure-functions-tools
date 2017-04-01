@@ -1,7 +1,7 @@
 {
   "name": "azure-functions-tools",
   "displayName": "Azure Functions Tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Azure Functions JSON Intellisense for VS Code",
   "publisher": "johnpapa",
   "engines": {
