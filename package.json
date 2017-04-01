@@ -7,7 +7,7 @@
   "engines": {
     "vscode": "^1.11.0"
   },
-  "icon": "images/azure-functions-logo-128.png",
+  "icon": "./images/azure-functions-logo-128.png",
   "galleryBanner": {
     "color": "#0273D4",
     "theme": "dark"
