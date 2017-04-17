@@ -4,7 +4,7 @@
 ## Features
 This extension for Visual Studio Code includes:
 
-- JSON Intellisense for `host.json` and `function.json`
+- JSON Intellisense for `host.json`, `function.json` and `proxies.json`
 
 > We'll add other features in future versions
 
