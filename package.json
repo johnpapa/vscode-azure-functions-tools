@@ -42,8 +42,6 @@
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
-  "devDependencies": {
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnpapa/vscode-azure-functions-tools.git"
