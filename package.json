@@ -25,6 +25,10 @@
       {
         "fileMatch": "/host.json",
         "url": "http://json.schemastore.org/host"
+      },
+      {
+        "fileMatch": "/proxies.json",
+        "url": "http://json.schemastore.org/proxies"
       }
     ]
   },
