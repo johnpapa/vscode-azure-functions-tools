@@ -9,7 +9,7 @@
 			"",
 			"/tconst id = parseInt(context.bindingData.id);",
 			"",
-			"let data = ${1:getData()};",
+			"/tlet data = ${1:getData()};",
 			"/tlet response = {};",
 			"",
 			"/tif (id) {",
