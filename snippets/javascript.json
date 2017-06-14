@@ -13,7 +13,7 @@
 			"\tlet response = {};",
 			"",
 			"\tif (id) {",
-			"\t\tconst ${2:item} = {3:findItem(data, id)};",
+			"\t\tconst ${2:item} = ${3:findItem(data, id)};",
 			"\t\tresponse = {",
 			"\t\t\tbody: ${2:item}",
 			"\t\t};",
