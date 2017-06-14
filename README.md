@@ -5,8 +5,19 @@
 This extension for Visual Studio Code includes:
 
 - JSON Intellisense for `host.json`, `function.json` and `proxies.json`
+- Snippets for JavaScript and TypeScript functions
 
 > We'll add other features in future versions
+
+```javascript
+// JavaScript
+az-func-node      // Create a JavaScript function for a webhook
+```
+
+```javascript
+// TypeScript
+az-func-node      // Create a TypeScript function for a webhook
+```
 
 ### JSON Schema Intellisense
 ![JSON Schema](images/json-schema-function.gif)

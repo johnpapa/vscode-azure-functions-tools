@@ -1,7 +1,7 @@
 {
   "name": "azure-functions-tools",
   "displayName": "Azure Functions Tools",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Azure Functions JSON Intellisense for VS Code",
   "publisher": "johnpapa",
   "engines": {
@@ -17,6 +17,16 @@
     "Other"
   ],
   "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      }
+    ],
     "jsonValidation": [
       {
         "fileMatch": "/function.json",
@@ -32,13 +42,13 @@
       }
     ]
   },
-  "keywords" : [
+  "keywords": [
     "Azure",
     "Azure Functions",
     "JavaScript",
     "Node",
     "Node.js"
-    ],
+  ],
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install"
   },

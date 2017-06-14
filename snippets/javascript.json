@@ -1,18 +1,31 @@
 {
-	"WebApiHook - JS": {
+	"WebApiHook - JavaScript": {
 		"prefix": "az-func-node",
 		"body": [
-			"module.exports = function (context, request) {",
-			"  context.log('Webhook was triggered');",
+			"module.exports = function (context, request){",
+			"/tcontext.log('JavaScript HTTP trigger function processed a request.');",
+			"/tcontext.log('Bindings', context.bindings);",
+			"/tcontext.log('Request', request);",
 			"",
-			"  let response = {",
-			"    status: 200,",
-			"    body: { }",
-			"  };",
+			"/tconst id = parseInt(context.bindingData.id);",
 			"",
-			"  context.done(null, response);",
-			"}"
+			"let data = ${1:getData()};",
+			"/tlet response = {};",
+			"",
+			"/tif (id) {",
+			"/t/tconst ${2:item} = {3:findItem(data, id)};",
+			"/t/tresponse = {",
+			"/t/t/tbody: ${2:item}",
+			"/t/t};",
+			"/t}",
+			"/telse{",
+			"/t/tresponse = {",
+			"/t/t/tbody: data",
+			"/t/t};",
+			"/t}",
+			"/tcontext.done(null, response);",
+			"};"
 		],
-		"description": "Node.js function that executes when a webhook request is received"
+		"description": "Node.js JavaScript function that executes when a webhook request is received"
 	}
 }

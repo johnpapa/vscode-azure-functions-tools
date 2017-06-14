@@ -1,0 +1,35 @@
+{
+	"WebApiHook - TypeScript": {
+		"prefix": "az-func-node",
+		"body": [
+			"export async function run(context, request) {",
+			"/tcontext.log('TypeScript HTTP trigger function processed a request.');",
+			"/tcontext.log('Bindings', context.bindings);",
+			"/tcontext.log('Request', request);",
+			"",
+			"/tconst id = parseInt(context.bindingData.id);",
+			"",
+			"/tlet body: string | {};",
+			"/tlet status = 200;",
+			"/tlet data = ${1:getData()};",
+			"/tlet response = {};",
+			"",
+			"/tif (id) {",
+			"/t/tconst ${2:item} = ${3: getMatch(data, id)};",
+			"/t/tbody = ${2:item};",
+			"/t}",
+			"/telse{",
+			"/t/tbody = data;",
+			"/t}",
+			"",
+			"/tresponse ={",
+			"/t/tbody,",
+			"/t/tstatus",
+			"/t}",
+			"",
+			"/treturn context.done(null, response);",
+			"};"
+		],
+		"description": "Node.js TypeScript function that executes when a webhook request is received"
+	}
+}
