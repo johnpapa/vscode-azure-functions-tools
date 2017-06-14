@@ -8,7 +8,6 @@
 			"/tcontext.log('Request', request);",
 			"",
 			"/tconst id = parseInt(context.bindingData.id);",
-			"",
 			"/tlet body: string | {};",
 			"/tlet status = 200;",
 			"/tlet data = ${1:getData()};",
