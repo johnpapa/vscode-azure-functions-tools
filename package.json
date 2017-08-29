@@ -14,7 +14,8 @@
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "categories": [
-    "Other"
+    "Other",
+    "Azure"
   ],
   "contributes": {
     "snippets": [
