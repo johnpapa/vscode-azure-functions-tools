@@ -1,5 +1,10 @@
 ## VS Code Azure Functions Tools Changelog
 
+<a name="0.3.1"></a>
+# 0.3.1 (2017-08-29)
+
+* Added Azure category
+
 <a name="0.3.0"></a>
 # 0.3.0 (2017-06-14)
 
