@@ -1,5 +1,10 @@
 ## VS Code Azure Functions Tools Changelog
 
+<a name="0.3.2"></a>
+# 0.3.2 (2018-02-06)
+
+* Deprecated in favor of Microsoft's Function extension
+
 <a name="0.3.1"></a>
 # 0.3.1 (2017-08-29)
 
