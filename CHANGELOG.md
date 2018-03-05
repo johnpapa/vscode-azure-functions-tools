@@ -1,5 +1,10 @@
 ## VS Code Azure Functions Tools Changelog
 
+<a name="0.3.3"></a>
+# 0.3.3 (2018-03-06)
+
+* Made the official Azure Functions extension a dependency, in case anyoe tries to get this one
+
 <a name="0.3.2"></a>
 # 0.3.2 (2018-02-06)
 

@@ -1,7 +1,7 @@
 {
   "name": "azure-functions-tools",
   "displayName": "[DEPRECATED] Azure Functions Tools",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "[DEPRECATED] Azure Functions JSON Intellisense for VS Code",
   "publisher": "johnpapa",
   "engines": {
@@ -57,5 +57,8 @@
   "bugs": {
     "url": "https://github.com/johnpapa/vscode-azure-functions-tools/issues"
   },
-  "homepage": "https://github.com/johnpapa/vscode-azure-functions-tools#readme"
+  "homepage": "https://github.com/johnpapa/vscode-azure-functions-tools#readme",
+  "extensionDependencies": [
+    "ms-azuretools.vscode-azurefunctions"
+  ]
 }
